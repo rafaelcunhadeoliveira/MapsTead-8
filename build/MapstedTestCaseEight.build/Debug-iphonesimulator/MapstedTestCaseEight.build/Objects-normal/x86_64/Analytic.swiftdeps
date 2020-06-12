@@ -1,0 +1,423 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Analytic"
+- "UsageStatistics"
+- "SessionInfo"
+- "Item"
+provides-nominal:
+- "20MapstedTestCaseEight8AnalyticC"
+- "20MapstedTestCaseEight8AnalyticC10CodingKeysO"
+- "20MapstedTestCaseEight15UsageStatisticsC"
+- "20MapstedTestCaseEight15UsageStatisticsC10CodingKeysO"
+- "20MapstedTestCaseEight11SessionInfoC"
+- "20MapstedTestCaseEight11SessionInfoC10CodingKeysO"
+- "20MapstedTestCaseEight4ItemC"
+- "20MapstedTestCaseEight4ItemC10CodingKeysO"
+provides-member:
+- ["20MapstedTestCaseEight8AnalyticC", ""]
+- ["20MapstedTestCaseEight8AnalyticC10CodingKeysO", ""]
+- ["20MapstedTestCaseEight15UsageStatisticsC", ""]
+- ["20MapstedTestCaseEight15UsageStatisticsC10CodingKeysO", ""]
+- ["20MapstedTestCaseEight11SessionInfoC", ""]
+- ["20MapstedTestCaseEight11SessionInfoC10CodingKeysO", ""]
+- ["20MapstedTestCaseEight4ItemC", ""]
+- ["20MapstedTestCaseEight4ItemC10CodingKeysO", ""]
+provides-dynamic-lookup:
+- "categoryId"
+- "code"
+- "cost"
+- "encode"
+- "id"
+- "infos"
+- "manufacturer"
+- "model"
+- "name"
+- "purchases"
+- "statistics"
+depends-top-level:
+- "=="
+- "Analytic"
+- "AssignmentPrecedence"
+- "Building"
+- "Codable"
+- "CodingKey"
+- "Decoder"
+- "Double"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "Item"
+- "SessionInfo"
+- "String"
+- "StringLiteralType"
+- "UsageStatistics"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- ["20MapstedTestCaseEight8AnalyticC", "CodingKey"]
+- ["20MapstedTestCaseEight8AnalyticC", "CodingKeys"]
+- ["20MapstedTestCaseEight8AnalyticC", "String"]
+- ["20MapstedTestCaseEight8AnalyticC", "UsageStatistics"]
+- !private ["20MapstedTestCaseEight8AnalyticC", "_findStringSwitchCase"]
+- ["20MapstedTestCaseEight8AnalyticC", "code"]
+- ["20MapstedTestCaseEight8AnalyticC", "deinit"]
+- ["20MapstedTestCaseEight8AnalyticC", "encode"]
+- ["20MapstedTestCaseEight8AnalyticC", "init"]
+- ["20MapstedTestCaseEight8AnalyticC", "manufacturer"]
+- ["20MapstedTestCaseEight8AnalyticC", "model"]
+- ["20MapstedTestCaseEight8AnalyticC", "name"]
+- ["20MapstedTestCaseEight8AnalyticC", "statistics"]
+- ["20MapstedTestCaseEight8BuildingC", "CodingKey"]
+- !private ["20MapstedTestCaseEight8BuildingC", "CodingKeys"]
+- ["20MapstedTestCaseEight8BuildingC", "Decoder"]
+- ["20MapstedTestCaseEight8BuildingC", "Item"]
+- ["20MapstedTestCaseEight8BuildingC", "String"]
+- ["20MapstedTestCaseEight8BuildingC", ""]
+- !private ["20MapstedTestCaseEight8BuildingC", "_findStringSwitchCase"]
+- !private ["20MapstedTestCaseEight8BuildingC", "deinit"]
+- ["20MapstedTestCaseEight8BuildingC", "init"]
+- ["20MapstedTestCaseEight8BuildingC", "purchases"]
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "RawValue"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- !private ["s9CodingKeyP", "purchases"]
+- ["s9CodingKeyP", "rawValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["20MapstedTestCaseEight11SessionInfoC10CodingKeysO", "=="]
+- ["20MapstedTestCaseEight15UsageStatisticsC10CodingKeysO", "=="]
+- ["20MapstedTestCaseEight4ItemC10CodingKeysO", "=="]
+- ["20MapstedTestCaseEight8AnalyticC10CodingKeysO", "=="]
+- ["20MapstedTestCaseEight11SessionInfoC10CodingKeysO", "RawValue"]
+- ["20MapstedTestCaseEight15UsageStatisticsC10CodingKeysO", "RawValue"]
+- ["20MapstedTestCaseEight4ItemC10CodingKeysO", "RawValue"]
+- ["20MapstedTestCaseEight8AnalyticC10CodingKeysO", "RawValue"]
+- ["20MapstedTestCaseEight11SessionInfoC10CodingKeysO", "_Default_RawValue"]
+- ["20MapstedTestCaseEight15UsageStatisticsC10CodingKeysO", "_Default_RawValue"]
+- ["20MapstedTestCaseEight4ItemC10CodingKeysO", "_Default_RawValue"]
+- ["20MapstedTestCaseEight8AnalyticC10CodingKeysO", "_Default_RawValue"]
+- !private ["20MapstedTestCaseEight11SessionInfoC10CodingKeysO", "_findStringSwitchCase"]
+- !private ["20MapstedTestCaseEight15UsageStatisticsC10CodingKeysO", "_findStringSwitchCase"]
+- !private ["20MapstedTestCaseEight4ItemC10CodingKeysO", "_findStringSwitchCase"]
+- !private ["20MapstedTestCaseEight8AnalyticC10CodingKeysO", "_findStringSwitchCase"]
+- ["20MapstedTestCaseEight11SessionInfoC10CodingKeysO", "_rawHashValue"]
+- ["20MapstedTestCaseEight15UsageStatisticsC10CodingKeysO", "_rawHashValue"]
+- ["20MapstedTestCaseEight4ItemC10CodingKeysO", "_rawHashValue"]
+- ["20MapstedTestCaseEight8AnalyticC10CodingKeysO", "_rawHashValue"]
+- ["20MapstedTestCaseEight4ItemC10CodingKeysO", "categoryId"]
+- ["20MapstedTestCaseEight8AnalyticC10CodingKeysO", "code"]
+- ["20MapstedTestCaseEight4ItemC10CodingKeysO", "cost"]
+- ["20MapstedTestCaseEight11SessionInfoC10CodingKeysO", "debugDescription"]
+- ["20MapstedTestCaseEight15UsageStatisticsC10CodingKeysO", "debugDescription"]
+- ["20MapstedTestCaseEight4ItemC10CodingKeysO", "debugDescription"]
+- ["20MapstedTestCaseEight8AnalyticC10CodingKeysO", "debugDescription"]
+- ["20MapstedTestCaseEight11SessionInfoC10CodingKeysO", "deinit"]
+- ["20MapstedTestCaseEight15UsageStatisticsC10CodingKeysO", "deinit"]
+- ["20MapstedTestCaseEight4ItemC10CodingKeysO", "deinit"]
+- ["20MapstedTestCaseEight8AnalyticC10CodingKeysO", "deinit"]
+- ["20MapstedTestCaseEight11SessionInfoC10CodingKeysO", "description"]
+- ["20MapstedTestCaseEight15UsageStatisticsC10CodingKeysO", "description"]
+- ["20MapstedTestCaseEight4ItemC10CodingKeysO", "description"]
+- ["20MapstedTestCaseEight8AnalyticC10CodingKeysO", "description"]
+- ["20MapstedTestCaseEight11SessionInfoC10CodingKeysO", "hash"]
+- ["20MapstedTestCaseEight15UsageStatisticsC10CodingKeysO", "hash"]
+- ["20MapstedTestCaseEight4ItemC10CodingKeysO", "hash"]
+- ["20MapstedTestCaseEight8AnalyticC10CodingKeysO", "hash"]
+- ["20MapstedTestCaseEight11SessionInfoC10CodingKeysO", "hashValue"]
+- ["20MapstedTestCaseEight15UsageStatisticsC10CodingKeysO", "hashValue"]
+- ["20MapstedTestCaseEight4ItemC10CodingKeysO", "hashValue"]
+- ["20MapstedTestCaseEight8AnalyticC10CodingKeysO", "hashValue"]
+- ["20MapstedTestCaseEight4ItemC10CodingKeysO", "id"]
+- ["20MapstedTestCaseEight15UsageStatisticsC10CodingKeysO", "infos"]
+- ["20MapstedTestCaseEight11SessionInfoC10CodingKeysO", "init"]
+- ["20MapstedTestCaseEight15UsageStatisticsC10CodingKeysO", "init"]
+- ["20MapstedTestCaseEight4ItemC10CodingKeysO", "init"]
+- ["20MapstedTestCaseEight8AnalyticC10CodingKeysO", "init"]
+- ["20MapstedTestCaseEight11SessionInfoC10CodingKeysO", "intValue"]
+- ["20MapstedTestCaseEight15UsageStatisticsC10CodingKeysO", "intValue"]
+- ["20MapstedTestCaseEight4ItemC10CodingKeysO", "intValue"]
+- ["20MapstedTestCaseEight8AnalyticC10CodingKeysO", "intValue"]
+- ["20MapstedTestCaseEight8AnalyticC10CodingKeysO", "manufacturer"]
+- ["20MapstedTestCaseEight8AnalyticC10CodingKeysO", "model"]
+- ["20MapstedTestCaseEight8AnalyticC10CodingKeysO", "name"]
+- ["20MapstedTestCaseEight11SessionInfoC10CodingKeysO", "purchases"]
+- ["20MapstedTestCaseEight11SessionInfoC10CodingKeysO", "rawValue"]
+- ["20MapstedTestCaseEight15UsageStatisticsC10CodingKeysO", "rawValue"]
+- ["20MapstedTestCaseEight4ItemC10CodingKeysO", "rawValue"]
+- ["20MapstedTestCaseEight8AnalyticC10CodingKeysO", "rawValue"]
+- ["20MapstedTestCaseEight8AnalyticC10CodingKeysO", "statistics"]
+- ["20MapstedTestCaseEight11SessionInfoC10CodingKeysO", "stringValue"]
+- ["20MapstedTestCaseEight15UsageStatisticsC10CodingKeysO", "stringValue"]
+- ["20MapstedTestCaseEight4ItemC10CodingKeysO", "stringValue"]
+- ["20MapstedTestCaseEight8AnalyticC10CodingKeysO", "stringValue"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "purchases"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "purchases"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["Se", "CodingKey"]
+- !private ["Se", "CodingKeys"]
+- !private ["Se", "Item"]
+- ["Se", ""]
+- !private ["Se", "_findStringSwitchCase"]
+- !private ["Se", "categoryId"]
+- !private ["Se", "code"]
+- !private ["Se", "cost"]
+- ["Se", "encode"]
+- !private ["Se", "id"]
+- !private ["Se", "infos"]
+- ["Se", "init"]
+- !private ["Se", "manufacturer"]
+- !private ["Se", "model"]
+- !private ["Se", "name"]
+- !private ["Se", "purchases"]
+- !private ["Se", "statistics"]
+- !private ["s7DecoderP", "container"]
+- ["SE", "CodingKey"]
+- !private ["SE", "CodingKeys"]
+- !private ["SE", "Item"]
+- ["SE", ""]
+- !private ["SE", "_findStringSwitchCase"]
+- !private ["SE", "categoryId"]
+- !private ["SE", "code"]
+- !private ["SE", "cost"]
+- ["SE", "encode"]
+- !private ["SE", "id"]
+- !private ["SE", "infos"]
+- ["SE", "init"]
+- !private ["SE", "manufacturer"]
+- !private ["SE", "model"]
+- !private ["SE", "name"]
+- !private ["SE", "purchases"]
+- !private ["SE", "statistics"]
+- !private ["s7EncoderP", "container"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- !private ["SQ", "purchases"]
+- ["SQ", "rawValue"]
+- ["SQ", "stringValue"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- !private ["SH", "purchases"]
+- ["SH", "rawValue"]
+- ["SH", "stringValue"]
+- ["20MapstedTestCaseEight4ItemC", "CodingKey"]
+- ["20MapstedTestCaseEight4ItemC", "CodingKeys"]
+- ["20MapstedTestCaseEight4ItemC", "Double"]
+- ["20MapstedTestCaseEight4ItemC", "Int"]
+- ["20MapstedTestCaseEight4ItemC", "String"]
+- !private ["20MapstedTestCaseEight4ItemC", "_findStringSwitchCase"]
+- ["20MapstedTestCaseEight4ItemC", "categoryId"]
+- ["20MapstedTestCaseEight4ItemC", "cost"]
+- ["20MapstedTestCaseEight4ItemC", "deinit"]
+- ["20MapstedTestCaseEight4ItemC", "encode"]
+- ["20MapstedTestCaseEight4ItemC", "id"]
+- ["20MapstedTestCaseEight4ItemC", "init"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- !private ["s22KeyedEncodingContainerV", "encodeIfPresent"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "intValue"]
+- !private ["SY", "purchases"]
+- ["SY", "rawValue"]
+- ["SY", "stringValue"]
+- ["20MapstedTestCaseEight11SessionInfoC", "CodingKey"]
+- ["20MapstedTestCaseEight11SessionInfoC", "CodingKeys"]
+- ["20MapstedTestCaseEight11SessionInfoC", "Decoder"]
+- ["20MapstedTestCaseEight11SessionInfoC", "Item"]
+- ["20MapstedTestCaseEight11SessionInfoC", "String"]
+- !private ["20MapstedTestCaseEight11SessionInfoC", "_findStringSwitchCase"]
+- ["20MapstedTestCaseEight11SessionInfoC", "deinit"]
+- ["20MapstedTestCaseEight11SessionInfoC", "init"]
+- ["20MapstedTestCaseEight11SessionInfoC", "purchases"]
+- ["20MapstedTestCaseEight15UsageStatisticsC", "CodingKey"]
+- ["20MapstedTestCaseEight15UsageStatisticsC", "CodingKeys"]
+- ["20MapstedTestCaseEight15UsageStatisticsC", "SessionInfo"]
+- ["20MapstedTestCaseEight15UsageStatisticsC", "String"]
+- !private ["20MapstedTestCaseEight15UsageStatisticsC", "_findStringSwitchCase"]
+- ["20MapstedTestCaseEight15UsageStatisticsC", "deinit"]
+- ["20MapstedTestCaseEight15UsageStatisticsC", "encode"]
+- ["20MapstedTestCaseEight15UsageStatisticsC", "infos"]
+- ["20MapstedTestCaseEight15UsageStatisticsC", "init"]
+depends-nominal:
+- "20MapstedTestCaseEight8AnalyticC"
+- "20MapstedTestCaseEight8BuildingC"
+- "s9CodingKeyP"
+- "20MapstedTestCaseEight11SessionInfoC10CodingKeysO"
+- "20MapstedTestCaseEight15UsageStatisticsC10CodingKeysO"
+- "20MapstedTestCaseEight4ItemC10CodingKeysO"
+- "20MapstedTestCaseEight8AnalyticC10CodingKeysO"
+- "20MapstedTestCaseEight11SessionInfoC10CodingKeysO"
+- "20MapstedTestCaseEight15UsageStatisticsC10CodingKeysO"
+- "20MapstedTestCaseEight4ItemC10CodingKeysO"
+- "20MapstedTestCaseEight8AnalyticC10CodingKeysO"
+- "20MapstedTestCaseEight11SessionInfoC10CodingKeysO"
+- "20MapstedTestCaseEight15UsageStatisticsC10CodingKeysO"
+- "20MapstedTestCaseEight4ItemC10CodingKeysO"
+- "20MapstedTestCaseEight8AnalyticC10CodingKeysO"
+- !private "20MapstedTestCaseEight11SessionInfoC10CodingKeysO"
+- !private "20MapstedTestCaseEight15UsageStatisticsC10CodingKeysO"
+- !private "20MapstedTestCaseEight4ItemC10CodingKeysO"
+- !private "20MapstedTestCaseEight8AnalyticC10CodingKeysO"
+- "20MapstedTestCaseEight11SessionInfoC10CodingKeysO"
+- "20MapstedTestCaseEight15UsageStatisticsC10CodingKeysO"
+- "20MapstedTestCaseEight4ItemC10CodingKeysO"
+- "20MapstedTestCaseEight8AnalyticC10CodingKeysO"
+- "20MapstedTestCaseEight4ItemC10CodingKeysO"
+- "20MapstedTestCaseEight8AnalyticC10CodingKeysO"
+- "20MapstedTestCaseEight4ItemC10CodingKeysO"
+- "20MapstedTestCaseEight11SessionInfoC10CodingKeysO"
+- "20MapstedTestCaseEight15UsageStatisticsC10CodingKeysO"
+- "20MapstedTestCaseEight4ItemC10CodingKeysO"
+- "20MapstedTestCaseEight8AnalyticC10CodingKeysO"
+- "20MapstedTestCaseEight11SessionInfoC10CodingKeysO"
+- "20MapstedTestCaseEight15UsageStatisticsC10CodingKeysO"
+- "20MapstedTestCaseEight4ItemC10CodingKeysO"
+- "20MapstedTestCaseEight8AnalyticC10CodingKeysO"
+- "20MapstedTestCaseEight11SessionInfoC10CodingKeysO"
+- "20MapstedTestCaseEight15UsageStatisticsC10CodingKeysO"
+- "20MapstedTestCaseEight4ItemC10CodingKeysO"
+- "20MapstedTestCaseEight8AnalyticC10CodingKeysO"
+- "20MapstedTestCaseEight11SessionInfoC10CodingKeysO"
+- "20MapstedTestCaseEight15UsageStatisticsC10CodingKeysO"
+- "20MapstedTestCaseEight4ItemC10CodingKeysO"
+- "20MapstedTestCaseEight8AnalyticC10CodingKeysO"
+- "20MapstedTestCaseEight11SessionInfoC10CodingKeysO"
+- "20MapstedTestCaseEight15UsageStatisticsC10CodingKeysO"
+- "20MapstedTestCaseEight4ItemC10CodingKeysO"
+- "20MapstedTestCaseEight8AnalyticC10CodingKeysO"
+- "20MapstedTestCaseEight4ItemC10CodingKeysO"
+- "20MapstedTestCaseEight15UsageStatisticsC10CodingKeysO"
+- "20MapstedTestCaseEight11SessionInfoC10CodingKeysO"
+- "20MapstedTestCaseEight15UsageStatisticsC10CodingKeysO"
+- "20MapstedTestCaseEight4ItemC10CodingKeysO"
+- "20MapstedTestCaseEight8AnalyticC10CodingKeysO"
+- "20MapstedTestCaseEight11SessionInfoC10CodingKeysO"
+- "20MapstedTestCaseEight15UsageStatisticsC10CodingKeysO"
+- "20MapstedTestCaseEight4ItemC10CodingKeysO"
+- "20MapstedTestCaseEight8AnalyticC10CodingKeysO"
+- "20MapstedTestCaseEight11SessionInfoC10CodingKeysO"
+- "20MapstedTestCaseEight15UsageStatisticsC10CodingKeysO"
+- "20MapstedTestCaseEight4ItemC10CodingKeysO"
+- "20MapstedTestCaseEight8AnalyticC10CodingKeysO"
+- "20MapstedTestCaseEight11SessionInfoC10CodingKeysO"
+- "20MapstedTestCaseEight15UsageStatisticsC10CodingKeysO"
+- "20MapstedTestCaseEight4ItemC10CodingKeysO"
+- "20MapstedTestCaseEight8AnalyticC10CodingKeysO"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- "SE"
+- !private "s7EncoderP"
+- "SQ"
+- "SH"
+- "20MapstedTestCaseEight4ItemC"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- "SY"
+- "20MapstedTestCaseEight11SessionInfoC"
+- "20MapstedTestCaseEight15UsageStatisticsC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/rafaelcunhadeoliveira/Documents/MapstedTestCaseEight/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/rafaelcunhadeoliveira/Documents/MapstedTestCaseEight/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/rafaelcunhadeoliveira/Documents/MapstedTestCaseEight/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/rafaelcunhadeoliveira/Documents/MapstedTestCaseEight/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "6df2ade52518fd91bd75537f7b9069c5"

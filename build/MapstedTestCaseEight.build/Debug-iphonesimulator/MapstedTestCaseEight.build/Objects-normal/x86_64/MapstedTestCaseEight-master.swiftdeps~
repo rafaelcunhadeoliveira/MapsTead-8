@@ -1,0 +1,15 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "971b0895c08c69f576a0b189e769d7eb"
+build_time: [1591970484, 977281000]
+inputs:
+  "/Users/rafaelcunhadeoliveira/Documents/MapstedTestCaseEight/MapstedTestCaseEight/Controller/Service/ServiceRequest.swift": [1591970484, 669585036]
+  "/Users/rafaelcunhadeoliveira/Documents/MapstedTestCaseEight/MapstedTestCaseEight/Model/Object/Building.swift": [1591913899, 728276322]
+  "/Users/rafaelcunhadeoliveira/Documents/MapstedTestCaseEight/MapstedTestCaseEight/Controller/Extensions/Array+Extension.swift": [1591969971, 467568406]
+  "/Users/rafaelcunhadeoliveira/Documents/MapstedTestCaseEight/MapstedTestCaseEight/View/TestCaseViewController.swift": [1591970201, 446061586]
+  "/Users/rafaelcunhadeoliveira/Documents/MapstedTestCaseEight/MapstedTestCaseEight/Controller/Extensions/String+Extension.swift": [1591947461, 806022041]
+  "/Users/rafaelcunhadeoliveira/Documents/MapstedTestCaseEight/MapstedTestCaseEight/View/ViewModel/TestCaseViewModel.swift": [1591970484, 720193120]
+  "/Users/rafaelcunhadeoliveira/Documents/MapstedTestCaseEight/MapstedTestCaseEight/App/AppDelegate.swift": [1591903999, 185861359]
+  "/Users/rafaelcunhadeoliveira/Documents/MapstedTestCaseEight/MapstedTestCaseEight/Controller/Extensions/ViewController+Extension.swift": [1591970484, 681517520]
+  "/Users/rafaelcunhadeoliveira/Documents/MapstedTestCaseEight/MapstedTestCaseEight/Model/Object/Analytic.swift": [1591919121, 619762974]
+  "/Users/rafaelcunhadeoliveira/Documents/MapstedTestCaseEight/MapstedTestCaseEight/Model/Object/Manufacturer.swift": [1591946067, 211060196]
+  "/Users/rafaelcunhadeoliveira/Documents/MapstedTestCaseEight/MapstedTestCaseEight/View/SceneDelegate.swift": [1591903999, 191514498]

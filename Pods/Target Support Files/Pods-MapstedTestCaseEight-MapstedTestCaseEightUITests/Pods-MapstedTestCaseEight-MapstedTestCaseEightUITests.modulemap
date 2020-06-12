@@ -1,0 +1,6 @@
+framework module Pods_MapstedTestCaseEight_MapstedTestCaseEightUITests {
+  umbrella header "Pods-MapstedTestCaseEight-MapstedTestCaseEightUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_MapstedTestCaseEight {
+  umbrella header "Pods-MapstedTestCaseEight-umbrella.h"
+
+  export *
+  module * { export * }
+}

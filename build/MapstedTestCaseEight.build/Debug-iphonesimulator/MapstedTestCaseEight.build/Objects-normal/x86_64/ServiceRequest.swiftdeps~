@@ -1,0 +1,192 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RequestUrlType"
+- "ServiceRequest"
+provides-nominal:
+- "20MapstedTestCaseEight14RequestUrlTypeO"
+- "20MapstedTestCaseEight14ServiceRequestC"
+provides-member:
+- ["20MapstedTestCaseEight14RequestUrlTypeO", ""]
+- ["20MapstedTestCaseEight14ServiceRequestC", ""]
+provides-dynamic-lookup:
+- "decoder"
+- "getAnalyticsData"
+- "getBuildingData"
+depends-top-level:
+- "=="
+- !private "AF"
+- "Analytic"
+- "BuildingInfo"
+- "Error"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "JSONDecoder"
+- "RequestUrlType"
+- "ServiceRequest"
+- "String"
+- "StringLiteralType"
+- !private "URL"
+- "Void"
+- !private "_findStringSwitchCase"
+- !private "print"
+- !private "~="
+depends-member:
+- !private ["9Alamofire2AFO", "request"]
+- !private ["20MapstedTestCaseEight8AnalyticC", "deinit"]
+- !private ["20MapstedTestCaseEight12BuildingInfoC", "deinit"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "result"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "responseData"]
+- !private ["s23CustomStringConvertibleP", "result"]
+- !private ["9Alamofire11DataDecoderP", "decode"]
+- ["9Alamofire11DataDecoderP", "init"]
+- !private ["9Alamofire11DataRequestC", "responseData"]
+- !private ["9Alamofire12DataResponseV", "data"]
+- !private ["9Alamofire12DataResponseV", "result"]
+- !private ["Se", "init"]
+- !private ["SE", "init"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "analyticData"]
+- !private ["SQ", "buildingData"]
+- !private ["SQ", "failure"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "responseData"]
+- !private ["SQ", "success"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "analyticData"]
+- !private ["SH", "buildingData"]
+- !private ["SH", "failure"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "rawValue"]
+- !private ["SH", "responseData"]
+- !private ["SH", "success"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- ["10Foundation11JSONDecoderC", "init"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- !private ["SY", "analyticData"]
+- !private ["SY", "buildingData"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["9Alamofire7RequestC", "responseData"]
+- ["20MapstedTestCaseEight14RequestUrlTypeO", "=="]
+- ["20MapstedTestCaseEight14RequestUrlTypeO", "RawValue"]
+- ["20MapstedTestCaseEight14RequestUrlTypeO", "_Default_RawValue"]
+- !private ["20MapstedTestCaseEight14RequestUrlTypeO", "_findStringSwitchCase"]
+- ["20MapstedTestCaseEight14RequestUrlTypeO", "_rawHashValue"]
+- ["20MapstedTestCaseEight14RequestUrlTypeO", "analyticData"]
+- ["20MapstedTestCaseEight14RequestUrlTypeO", "buildingData"]
+- ["20MapstedTestCaseEight14RequestUrlTypeO", "deinit"]
+- ["20MapstedTestCaseEight14RequestUrlTypeO", "hash"]
+- ["20MapstedTestCaseEight14RequestUrlTypeO", "hashValue"]
+- ["20MapstedTestCaseEight14RequestUrlTypeO", "init"]
+- ["20MapstedTestCaseEight14RequestUrlTypeO", "rawValue"]
+- !private ["s6ResultO", "failure"]
+- !private ["s6ResultO", "success"]
+- !private ["20MapstedTestCaseEight14ServiceRequestC", "AF"]
+- ["20MapstedTestCaseEight14ServiceRequestC", "Analytic"]
+- ["20MapstedTestCaseEight14ServiceRequestC", "BuildingInfo"]
+- ["20MapstedTestCaseEight14ServiceRequestC", "Error"]
+- ["20MapstedTestCaseEight14ServiceRequestC", "JSONDecoder"]
+- !private ["20MapstedTestCaseEight14ServiceRequestC", "RequestUrlType"]
+- !private ["20MapstedTestCaseEight14ServiceRequestC", "URL"]
+- ["20MapstedTestCaseEight14ServiceRequestC", "Void"]
+- ["20MapstedTestCaseEight14ServiceRequestC", "decoder"]
+- ["20MapstedTestCaseEight14ServiceRequestC", "deinit"]
+- ["20MapstedTestCaseEight14ServiceRequestC", "getAnalyticsData"]
+- ["20MapstedTestCaseEight14ServiceRequestC", "getBuildingData"]
+- ["20MapstedTestCaseEight14ServiceRequestC", "init"]
+- !private ["20MapstedTestCaseEight14ServiceRequestC", "print"]
+- !private ["7Combine15TopLevelDecoderP", "decode"]
+- ["7Combine15TopLevelDecoderP", "init"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "9Alamofire2AFO"
+- !private "20MapstedTestCaseEight8AnalyticC"
+- !private "20MapstedTestCaseEight12BuildingInfoC"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- "9Alamofire11DataDecoderP"
+- !private "9Alamofire11DataRequestC"
+- !private "9Alamofire12DataResponseV"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- "SH"
+- "10Foundation11JSONDecoderC"
+- "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "9Alamofire7RequestC"
+- "20MapstedTestCaseEight14RequestUrlTypeO"
+- !private "s6ResultO"
+- "20MapstedTestCaseEight14ServiceRequestC"
+- "7Combine15TopLevelDecoderP"
+- !private "10Foundation3URLV"
+- !private "9Alamofire14URLConvertibleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/rafaelcunhadeoliveira/Documents/MapstedTestCaseEight/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/rafaelcunhadeoliveira/Documents/MapstedTestCaseEight/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/rafaelcunhadeoliveira/Documents/MapstedTestCaseEight/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/rafaelcunhadeoliveira/Documents/MapstedTestCaseEight/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "7e7941504983849b39e08b08bbcf514f"

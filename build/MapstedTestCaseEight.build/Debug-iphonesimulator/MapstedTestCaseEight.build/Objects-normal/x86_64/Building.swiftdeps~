@@ -1,0 +1,309 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Building"
+- "BuildingInfo"
+provides-nominal:
+- "20MapstedTestCaseEight8BuildingC"
+- "20MapstedTestCaseEight8BuildingC10CodingKeysO"
+- "20MapstedTestCaseEight12BuildingInfoC"
+- "20MapstedTestCaseEight12BuildingInfoC10CodingKeysO"
+provides-member:
+- ["20MapstedTestCaseEight8BuildingC", ""]
+- ["20MapstedTestCaseEight8BuildingC10CodingKeysO", ""]
+- ["20MapstedTestCaseEight12BuildingInfoC", ""]
+- ["20MapstedTestCaseEight12BuildingInfoC10CodingKeysO", ""]
+provides-dynamic-lookup:
+- "city"
+- "country"
+- "encode"
+- "id"
+- "name"
+- "state"
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "Building"
+- "BuildingInfo"
+- "Codable"
+- "CodingKey"
+- "Decoder"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "String"
+- "StringLiteralType"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- ["20MapstedTestCaseEight8BuildingC", "CodingKey"]
+- ["20MapstedTestCaseEight8BuildingC", "CodingKeys"]
+- ["20MapstedTestCaseEight8BuildingC", "Decoder"]
+- ["20MapstedTestCaseEight8BuildingC", "Int"]
+- ["20MapstedTestCaseEight8BuildingC", "String"]
+- ["20MapstedTestCaseEight8BuildingC", ""]
+- !private ["20MapstedTestCaseEight8BuildingC", "_findStringSwitchCase"]
+- ["20MapstedTestCaseEight8BuildingC", "city"]
+- ["20MapstedTestCaseEight8BuildingC", "country"]
+- ["20MapstedTestCaseEight8BuildingC", "deinit"]
+- ["20MapstedTestCaseEight8BuildingC", "encode"]
+- ["20MapstedTestCaseEight8BuildingC", "id"]
+- ["20MapstedTestCaseEight8BuildingC", "init"]
+- ["20MapstedTestCaseEight8BuildingC", "name"]
+- ["20MapstedTestCaseEight8BuildingC", "state"]
+- ["20MapstedTestCaseEight12BuildingInfoC", "CodingKey"]
+- ["20MapstedTestCaseEight12BuildingInfoC", "CodingKeys"]
+- ["20MapstedTestCaseEight12BuildingInfoC", "Decoder"]
+- ["20MapstedTestCaseEight12BuildingInfoC", "String"]
+- !private ["20MapstedTestCaseEight12BuildingInfoC", "_findStringSwitchCase"]
+- ["20MapstedTestCaseEight12BuildingInfoC", "city"]
+- ["20MapstedTestCaseEight12BuildingInfoC", "country"]
+- ["20MapstedTestCaseEight12BuildingInfoC", "deinit"]
+- ["20MapstedTestCaseEight12BuildingInfoC", "init"]
+- ["20MapstedTestCaseEight12BuildingInfoC", "state"]
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "RawValue"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- !private ["s9CodingKeyP", "city"]
+- !private ["s9CodingKeyP", "country"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "rawValue"]
+- !private ["s9CodingKeyP", "state"]
+- ["s9CodingKeyP", "stringValue"]
+- ["20MapstedTestCaseEight12BuildingInfoC10CodingKeysO", "=="]
+- ["20MapstedTestCaseEight8BuildingC10CodingKeysO", "=="]
+- ["20MapstedTestCaseEight12BuildingInfoC10CodingKeysO", "RawValue"]
+- ["20MapstedTestCaseEight8BuildingC10CodingKeysO", "RawValue"]
+- ["20MapstedTestCaseEight12BuildingInfoC10CodingKeysO", "_Default_RawValue"]
+- ["20MapstedTestCaseEight8BuildingC10CodingKeysO", "_Default_RawValue"]
+- !private ["20MapstedTestCaseEight12BuildingInfoC10CodingKeysO", "_findStringSwitchCase"]
+- !private ["20MapstedTestCaseEight8BuildingC10CodingKeysO", "_findStringSwitchCase"]
+- ["20MapstedTestCaseEight12BuildingInfoC10CodingKeysO", "_rawHashValue"]
+- ["20MapstedTestCaseEight8BuildingC10CodingKeysO", "_rawHashValue"]
+- ["20MapstedTestCaseEight12BuildingInfoC10CodingKeysO", "city"]
+- ["20MapstedTestCaseEight12BuildingInfoC10CodingKeysO", "country"]
+- ["20MapstedTestCaseEight12BuildingInfoC10CodingKeysO", "debugDescription"]
+- ["20MapstedTestCaseEight8BuildingC10CodingKeysO", "debugDescription"]
+- ["20MapstedTestCaseEight12BuildingInfoC10CodingKeysO", "deinit"]
+- ["20MapstedTestCaseEight8BuildingC10CodingKeysO", "deinit"]
+- ["20MapstedTestCaseEight12BuildingInfoC10CodingKeysO", "description"]
+- ["20MapstedTestCaseEight8BuildingC10CodingKeysO", "description"]
+- ["20MapstedTestCaseEight12BuildingInfoC10CodingKeysO", "hash"]
+- ["20MapstedTestCaseEight8BuildingC10CodingKeysO", "hash"]
+- ["20MapstedTestCaseEight12BuildingInfoC10CodingKeysO", "hashValue"]
+- ["20MapstedTestCaseEight8BuildingC10CodingKeysO", "hashValue"]
+- ["20MapstedTestCaseEight8BuildingC10CodingKeysO", "id"]
+- ["20MapstedTestCaseEight12BuildingInfoC10CodingKeysO", "init"]
+- ["20MapstedTestCaseEight8BuildingC10CodingKeysO", "init"]
+- ["20MapstedTestCaseEight12BuildingInfoC10CodingKeysO", "intValue"]
+- ["20MapstedTestCaseEight8BuildingC10CodingKeysO", "intValue"]
+- ["20MapstedTestCaseEight8BuildingC10CodingKeysO", "name"]
+- ["20MapstedTestCaseEight12BuildingInfoC10CodingKeysO", "rawValue"]
+- ["20MapstedTestCaseEight8BuildingC10CodingKeysO", "rawValue"]
+- ["20MapstedTestCaseEight12BuildingInfoC10CodingKeysO", "state"]
+- ["20MapstedTestCaseEight12BuildingInfoC10CodingKeysO", "stringValue"]
+- ["20MapstedTestCaseEight8BuildingC10CodingKeysO", "stringValue"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "city"]
+- !private ["s28CustomDebugStringConvertibleP", "country"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "state"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- !private ["s23CustomStringConvertibleP", "city"]
+- !private ["s23CustomStringConvertibleP", "country"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- !private ["s23CustomStringConvertibleP", "state"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["Se", "CodingKey"]
+- !private ["Se", "CodingKeys"]
+- !private ["Se", "String"]
+- ["Se", ""]
+- !private ["Se", "_findStringSwitchCase"]
+- !private ["Se", "city"]
+- !private ["Se", "country"]
+- ["Se", "encode"]
+- !private ["Se", "id"]
+- ["Se", "init"]
+- !private ["Se", "name"]
+- !private ["Se", "state"]
+- !private ["s7DecoderP", "container"]
+- ["SE", "CodingKey"]
+- !private ["SE", "CodingKeys"]
+- !private ["SE", "String"]
+- ["SE", ""]
+- !private ["SE", "_findStringSwitchCase"]
+- !private ["SE", "city"]
+- !private ["SE", "country"]
+- ["SE", "encode"]
+- !private ["SE", "id"]
+- ["SE", "init"]
+- !private ["SE", "name"]
+- !private ["SE", "state"]
+- !private ["s7EncoderP", "container"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "city"]
+- !private ["SQ", "country"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "state"]
+- ["SQ", "stringValue"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "city"]
+- !private ["SH", "country"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "rawValue"]
+- !private ["SH", "state"]
+- ["SH", "stringValue"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- !private ["s22KeyedEncodingContainerV", "encodeIfPresent"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- !private ["SY", "city"]
+- !private ["SY", "country"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "intValue"]
+- ["SY", "rawValue"]
+- !private ["SY", "state"]
+- ["SY", "stringValue"]
+depends-nominal:
+- "20MapstedTestCaseEight8BuildingC"
+- "20MapstedTestCaseEight12BuildingInfoC"
+- "s9CodingKeyP"
+- "20MapstedTestCaseEight12BuildingInfoC10CodingKeysO"
+- "20MapstedTestCaseEight8BuildingC10CodingKeysO"
+- "20MapstedTestCaseEight12BuildingInfoC10CodingKeysO"
+- "20MapstedTestCaseEight8BuildingC10CodingKeysO"
+- "20MapstedTestCaseEight12BuildingInfoC10CodingKeysO"
+- "20MapstedTestCaseEight8BuildingC10CodingKeysO"
+- !private "20MapstedTestCaseEight12BuildingInfoC10CodingKeysO"
+- !private "20MapstedTestCaseEight8BuildingC10CodingKeysO"
+- "20MapstedTestCaseEight12BuildingInfoC10CodingKeysO"
+- "20MapstedTestCaseEight8BuildingC10CodingKeysO"
+- "20MapstedTestCaseEight12BuildingInfoC10CodingKeysO"
+- "20MapstedTestCaseEight8BuildingC10CodingKeysO"
+- "20MapstedTestCaseEight12BuildingInfoC10CodingKeysO"
+- "20MapstedTestCaseEight8BuildingC10CodingKeysO"
+- "20MapstedTestCaseEight12BuildingInfoC10CodingKeysO"
+- "20MapstedTestCaseEight8BuildingC10CodingKeysO"
+- "20MapstedTestCaseEight12BuildingInfoC10CodingKeysO"
+- "20MapstedTestCaseEight8BuildingC10CodingKeysO"
+- "20MapstedTestCaseEight12BuildingInfoC10CodingKeysO"
+- "20MapstedTestCaseEight8BuildingC10CodingKeysO"
+- "20MapstedTestCaseEight12BuildingInfoC10CodingKeysO"
+- "20MapstedTestCaseEight8BuildingC10CodingKeysO"
+- "20MapstedTestCaseEight12BuildingInfoC10CodingKeysO"
+- "20MapstedTestCaseEight8BuildingC10CodingKeysO"
+- "20MapstedTestCaseEight12BuildingInfoC10CodingKeysO"
+- "20MapstedTestCaseEight8BuildingC10CodingKeysO"
+- "20MapstedTestCaseEight12BuildingInfoC10CodingKeysO"
+- "20MapstedTestCaseEight8BuildingC10CodingKeysO"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- "SE"
+- !private "s7EncoderP"
+- "SQ"
+- "SH"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- "SY"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/rafaelcunhadeoliveira/Documents/MapstedTestCaseEight/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/rafaelcunhadeoliveira/Documents/MapstedTestCaseEight/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/rafaelcunhadeoliveira/Documents/MapstedTestCaseEight/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/rafaelcunhadeoliveira/Documents/MapstedTestCaseEight/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "17922120af9257d0afdd8766612fac2b"

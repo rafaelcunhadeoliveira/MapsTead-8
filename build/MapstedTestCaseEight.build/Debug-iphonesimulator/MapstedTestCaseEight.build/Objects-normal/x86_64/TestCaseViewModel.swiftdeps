@@ -1,0 +1,471 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TestCaseViewModel"
+provides-nominal:
+- "20MapstedTestCaseEight0bC9ViewModelC"
+provides-member:
+- ["20MapstedTestCaseEight0bC9ViewModelC", ""]
+provides-dynamic-lookup:
+- "$__lazy_storage_$_service"
+- "addContry"
+- "addManifacture"
+- "addProduct"
+- "addState"
+- "buildings"
+- "buildingsValue"
+- "countries"
+- "getAnalyticsData"
+- "getBuildingData"
+- "getMostValuableBuilding"
+- "getPrice"
+- "getStateByBuildingId"
+- "getTotalForCountry"
+- "getTotalForManufacturer"
+- "getTotalForProduct"
+- "getTotalForProductCategory"
+- "getTotalForState"
+- "manufacturers"
+- "products"
+- "productsCategoriesNames"
+- "productsIdNames"
+- "service"
+- "statesName"
+- "transformAnalyticsData"
+- "transformBuildingsData"
+depends-top-level:
+- !private "!"
+- !private "+="
+- !private "=="
+- !private ">"
+- !private "??"
+- "Analytic"
+- "AssignmentPrecedence"
+- "BuildingInfo"
+- "BuildingValue"
+- "Double"
+- "Error"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "Product"
+- "ServiceRequest"
+- "SessionInfo"
+- "String"
+- !private "StringLiteralType"
+- "TestCaseViewModel"
+- "Void"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["9Alamofire0A8ExtendedP", "append"]
+- !private ["9Alamofire0A8ExtendedP", "appendUnique"]
+- !private ["9Alamofire0A8ExtendedP", "contains"]
+- !private ["9Alamofire0A8ExtendedP", "count"]
+- !private ["9Alamofire0A8ExtendedP", "filter"]
+- !private ["9Alamofire0A8ExtendedP", "first"]
+- !private ["9Alamofire0A8ExtendedP", "last"]
+- !private ["20MapstedTestCaseEight8AnalyticC", "manufacturer"]
+- !private ["20MapstedTestCaseEight8AnalyticC", "statistics"]
+- !private ["Sa", "append"]
+- !private ["Sa", "appendUnique"]
+- !private ["Sa", "contains"]
+- !private ["Sa", "count"]
+- !private ["Sa", "filter"]
+- !private ["Sa", "first"]
+- !private ["Sa", "last"]
+- !private ["SK", "append"]
+- !private ["SK", "appendUnique"]
+- !private ["SK", "contains"]
+- !private ["SK", "count"]
+- !private ["SK", "filter"]
+- !private ["SK", "first"]
+- !private ["SK", "init"]
+- !private ["SK", "last"]
+- !private ["Sz", "init"]
+- !private ["20MapstedTestCaseEight8BuildingC", "country"]
+- !private ["20MapstedTestCaseEight8BuildingC", "id"]
+- !private ["20MapstedTestCaseEight8BuildingC", "name"]
+- !private ["20MapstedTestCaseEight8BuildingC", "purchases"]
+- !private ["20MapstedTestCaseEight8BuildingC", "state"]
+- !private ["20MapstedTestCaseEight12BuildingInfoC", "country"]
+- !private ["20MapstedTestCaseEight12BuildingInfoC", "id"]
+- !private ["20MapstedTestCaseEight12BuildingInfoC", "name"]
+- !private ["20MapstedTestCaseEight12BuildingInfoC", "state"]
+- !private ["20MapstedTestCaseEight13BuildingValueC", "countryName"]
+- !private ["20MapstedTestCaseEight13BuildingValueC", "id"]
+- !private ["20MapstedTestCaseEight13BuildingValueC", "init"]
+- !private ["20MapstedTestCaseEight13BuildingValueC", "stateName"]
+- !private ["20MapstedTestCaseEight13BuildingValueC", "value"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "appendUnique"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "filter"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "last"]
+- !private ["Sl", "append"]
+- !private ["Sl", "appendUnique"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "count"]
+- !private ["Sl", "filter"]
+- !private ["Sl", "first"]
+- !private ["Sl", "init"]
+- !private ["Sl", "last"]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "appendUnique"]
+- !private ["10Foundation15ContiguousBytesP", "contains"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "filter"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["10Foundation15ContiguousBytesP", "last"]
+- !private ["20MapstedTestCaseEight12CountryValueC", "countryName"]
+- !private ["20MapstedTestCaseEight12CountryValueC", "id"]
+- !private ["20MapstedTestCaseEight12CountryValueC", "stateName"]
+- !private ["20MapstedTestCaseEight12CountryValueC", "value"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "appendUnique"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "last"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "appendUnique"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "filter"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "last"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendUnique"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "last"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "appendUnique"]
+- !private ["10Foundation12DataProtocolP", "contains"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "filter"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["10Foundation12DataProtocolP", "last"]
+- !private ["Se", "append"]
+- !private ["Se", "appendUnique"]
+- !private ["Se", "categoryId"]
+- !private ["Se", "contains"]
+- !private ["Se", "cost"]
+- !private ["Se", "count"]
+- !private ["Se", "country"]
+- !private ["Se", "filter"]
+- !private ["Se", "first"]
+- !private ["Se", "id"]
+- !private ["Se", "infos"]
+- !private ["Se", "init"]
+- !private ["Se", "last"]
+- !private ["Se", "manufacturer"]
+- !private ["Se", "name"]
+- !private ["Se", "purchases"]
+- !private ["Se", "state"]
+- !private ["Se", "statistics"]
+- !private ["SE", "append"]
+- !private ["SE", "appendUnique"]
+- !private ["SE", "categoryId"]
+- !private ["SE", "contains"]
+- !private ["SE", "cost"]
+- !private ["SE", "count"]
+- !private ["SE", "country"]
+- !private ["SE", "filter"]
+- !private ["SE", "first"]
+- !private ["SE", "id"]
+- !private ["SE", "infos"]
+- !private ["SE", "init"]
+- !private ["SE", "last"]
+- !private ["SE", "manufacturer"]
+- !private ["SE", "name"]
+- !private ["SE", "purchases"]
+- !private ["SE", "state"]
+- !private ["SE", "statistics"]
+- !private ["SQ", "append"]
+- !private ["SQ", "appendUnique"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "count"]
+- !private ["SQ", "filter"]
+- !private ["SQ", "first"]
+- !private ["SQ", "init"]
+- !private ["SQ", "last"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "appendUnique"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "filter"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "last"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", "append"]
+- !private ["SH", "appendUnique"]
+- !private ["SH", "contains"]
+- !private ["SH", "count"]
+- !private ["SH", "filter"]
+- !private ["SH", "first"]
+- !private ["SH", "init"]
+- !private ["SH", "last"]
+- !private ["Si", "init"]
+- !private ["20MapstedTestCaseEight4ItemC", "categoryId"]
+- !private ["20MapstedTestCaseEight4ItemC", "cost"]
+- !private ["20MapstedTestCaseEight4ItemC", "id"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "appendUnique"]
+- !private ["SM", "contains"]
+- !private ["SM", "count"]
+- !private ["SM", "filter"]
+- !private ["SM", "first"]
+- !private ["SM", "last"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "appendUnique"]
+- !private ["10Foundation19MutableDataProtocolP", "contains"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "filter"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "last"]
+- !private ["Sj", "init"]
+- !private ["20MapstedTestCaseEight7ProductC", "categoryId"]
+- !private ["20MapstedTestCaseEight7ProductC", "cost"]
+- !private ["20MapstedTestCaseEight7ProductC", "id"]
+- !private ["20MapstedTestCaseEight7ProductC", "init"]
+- !private ["20MapstedTestCaseEight7ProductC", "manufacturerName"]
+- !private ["Sk", "append"]
+- !private ["Sk", "appendUnique"]
+- !private ["Sk", "contains"]
+- !private ["Sk", "count"]
+- !private ["Sk", "filter"]
+- !private ["Sk", "first"]
+- !private ["Sk", "last"]
+- !private ["Sm", "append"]
+- !private ["Sm", "appendUnique"]
+- !private ["Sm", "contains"]
+- !private ["Sm", "count"]
+- !private ["Sm", "filter"]
+- !private ["Sm", "first"]
+- !private ["Sm", "init"]
+- !private ["Sm", "last"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "append"]
+- !private ["ST", "appendUnique"]
+- !private ["ST", "contains"]
+- !private ["ST", "count"]
+- !private ["ST", "filter"]
+- !private ["ST", "first"]
+- !private ["ST", "init"]
+- !private ["ST", "last"]
+- !private ["20MapstedTestCaseEight14ServiceRequestC", "getAnalyticsData"]
+- !private ["20MapstedTestCaseEight14ServiceRequestC", "getBuildingData"]
+- ["20MapstedTestCaseEight14ServiceRequestC", "init"]
+- !private ["20MapstedTestCaseEight11SessionInfoC", "id"]
+- !private ["20MapstedTestCaseEight11SessionInfoC", "purchases"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["20MapstedTestCaseEight10StateValueC", "countryName"]
+- !private ["20MapstedTestCaseEight10StateValueC", "id"]
+- !private ["20MapstedTestCaseEight10StateValueC", "stateName"]
+- !private ["20MapstedTestCaseEight10StateValueC", "value"]
+- !private ["Sx", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["20MapstedTestCaseEight0bC9ViewModelC", "$__lazy_storage_$_service"]
+- ["20MapstedTestCaseEight0bC9ViewModelC", "Analytic"]
+- ["20MapstedTestCaseEight0bC9ViewModelC", "BuildingInfo"]
+- ["20MapstedTestCaseEight0bC9ViewModelC", "BuildingValue"]
+- ["20MapstedTestCaseEight0bC9ViewModelC", "Double"]
+- ["20MapstedTestCaseEight0bC9ViewModelC", "Error"]
+- ["20MapstedTestCaseEight0bC9ViewModelC", "Int"]
+- ["20MapstedTestCaseEight0bC9ViewModelC", "Product"]
+- ["20MapstedTestCaseEight0bC9ViewModelC", "ServiceRequest"]
+- ["20MapstedTestCaseEight0bC9ViewModelC", "SessionInfo"]
+- ["20MapstedTestCaseEight0bC9ViewModelC", "String"]
+- ["20MapstedTestCaseEight0bC9ViewModelC", "Void"]
+- !private ["20MapstedTestCaseEight0bC9ViewModelC", "addContry"]
+- !private ["20MapstedTestCaseEight0bC9ViewModelC", "addManifacture"]
+- !private ["20MapstedTestCaseEight0bC9ViewModelC", "addProduct"]
+- !private ["20MapstedTestCaseEight0bC9ViewModelC", "addState"]
+- ["20MapstedTestCaseEight0bC9ViewModelC", "buildings"]
+- ["20MapstedTestCaseEight0bC9ViewModelC", "buildingsValue"]
+- ["20MapstedTestCaseEight0bC9ViewModelC", "countries"]
+- ["20MapstedTestCaseEight0bC9ViewModelC", "deinit"]
+- ["20MapstedTestCaseEight0bC9ViewModelC", "getAnalyticsData"]
+- ["20MapstedTestCaseEight0bC9ViewModelC", "getBuildingData"]
+- ["20MapstedTestCaseEight0bC9ViewModelC", "getMostValuableBuilding"]
+- !private ["20MapstedTestCaseEight0bC9ViewModelC", "getPrice"]
+- ["20MapstedTestCaseEight0bC9ViewModelC", "getStateByBuildingId"]
+- ["20MapstedTestCaseEight0bC9ViewModelC", "getTotalForCountry"]
+- ["20MapstedTestCaseEight0bC9ViewModelC", "getTotalForManufacturer"]
+- ["20MapstedTestCaseEight0bC9ViewModelC", "getTotalForProduct"]
+- ["20MapstedTestCaseEight0bC9ViewModelC", "getTotalForProductCategory"]
+- ["20MapstedTestCaseEight0bC9ViewModelC", "getTotalForState"]
+- ["20MapstedTestCaseEight0bC9ViewModelC", "init"]
+- ["20MapstedTestCaseEight0bC9ViewModelC", "manufacturers"]
+- ["20MapstedTestCaseEight0bC9ViewModelC", "products"]
+- ["20MapstedTestCaseEight0bC9ViewModelC", "productsCategoriesNames"]
+- ["20MapstedTestCaseEight0bC9ViewModelC", "productsIdNames"]
+- ["20MapstedTestCaseEight0bC9ViewModelC", "service"]
+- ["20MapstedTestCaseEight0bC9ViewModelC", "statesName"]
+- !private ["20MapstedTestCaseEight0bC9ViewModelC", "transformAnalyticsData"]
+- !private ["20MapstedTestCaseEight0bC9ViewModelC", "transformBuildingsData"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["20MapstedTestCaseEight15UsageStatisticsC", "infos"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "appendUnique"]
+- !private ["s14_ArrayProtocolP", "contains"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "filter"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "last"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "appendUnique"]
+- !private ["s24_DestructorSafeContainerP", "contains"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "filter"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "last"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "appendUnique"]
+- !private ["s19_HasContiguousBytesP", "contains"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "filter"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "last"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "appendUnique"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "filter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "last"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "appendUnique"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "last"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "9Alamofire0A8ExtendedP"
+- !private "20MapstedTestCaseEight8AnalyticC"
+- !private "Sa"
+- !private "SK"
+- !private "Sz"
+- !private "20MapstedTestCaseEight8BuildingC"
+- !private "20MapstedTestCaseEight12BuildingInfoC"
+- !private "20MapstedTestCaseEight13BuildingValueC"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "20MapstedTestCaseEight12CountryValueC"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SH"
+- !private "Si"
+- !private "20MapstedTestCaseEight4ItemC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sj"
+- !private "20MapstedTestCaseEight7ProductC"
+- !private "Sk"
+- !private "Sm"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- "20MapstedTestCaseEight14ServiceRequestC"
+- !private "20MapstedTestCaseEight11SessionInfoC"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "20MapstedTestCaseEight10StateValueC"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- "20MapstedTestCaseEight0bC9ViewModelC"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "9Alamofire14URLConvertibleP"
+- !private "20MapstedTestCaseEight15UsageStatisticsC"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/rafaelcunhadeoliveira/Documents/MapstedTestCaseEight/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/rafaelcunhadeoliveira/Documents/MapstedTestCaseEight/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/rafaelcunhadeoliveira/Documents/MapstedTestCaseEight/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/rafaelcunhadeoliveira/Documents/MapstedTestCaseEight/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "82fb92758f5a13325bd32180391af193"

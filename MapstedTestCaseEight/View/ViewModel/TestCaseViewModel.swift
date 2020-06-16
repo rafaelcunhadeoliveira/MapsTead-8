@@ -21,6 +21,8 @@ class TestCaseViewModel {
     var productsCategoriesNames: [String] = []
     var manufacturers: [String] = []
     var productsIdNames: [String] = []
+    var productsId: [Int] = []
+    var productsCategoryId: [Int] = []
 
     //MARK: - Service Request
 
@@ -101,11 +103,15 @@ class TestCaseViewModel {
     }
 
     private func addProduct(_ prod: Product) {
-        if !productsCategoriesNames.contains(String(prod.categoryId)) {
-            productsCategoriesNames.append(String(prod.categoryId))
+        if !productsCategoryId.contains(where: { $0 == prod.categoryId }) {
+            productsCategoryId.append(prod.categoryId)
+            productsCategoryId.sort { $0 < $1 }
+            productsCategoriesNames = productsCategoryId.map{String($0)}
         }
-        if !productsIdNames.contains(String(prod.id)) {
-            productsIdNames.append(String(prod.id))
+        if !productsId.contains(where: { $0 == prod.id }) {
+            productsId.append(prod.id)
+            productsId.sort { $0 < $1 }
+            productsIdNames = productsId.map{String($0)} // order the array
         }
     }
 
